@@ -1,0 +1,26 @@
+:root {
+  --primary: #2C5E91;
+  --secondary: #F4A261;
+  --dark: #1A2B3E;
+  --light: #F7F9FC;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.event-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.filter-btn.active {
+  background-color: var(--primary);
+  color: white;
+}
